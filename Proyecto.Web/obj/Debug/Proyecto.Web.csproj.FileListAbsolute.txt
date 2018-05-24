@@ -1,0 +1,10 @@
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\bin\Proyecto.Web.dll.config
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\bin\Proyecto.Web.dll
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\bin\Proyecto.Web.pdb
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\obj\Debug\Proyecto.Web.csproj.CoreCompileInputs.cache
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\obj\Debug\Proyecto.Web.csproj.CopyComplete
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\obj\Debug\Proyecto.Web.dll
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\obj\Debug\Proyecto.Web.pdb
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\obj\Debug\Proyecto.Web.csprojResolveAssemblyReference.cache
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\bin\Proyecto.Logica.dll
+C:\Users\J.Luis\Desktop\Visual Studio\C_SHARP\Proyecto\Proyecto.Web\bin\Proyecto.Logica.pdb
