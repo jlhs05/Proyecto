@@ -70,8 +70,8 @@ namespace Proyecto.Web.Views.PosiblesClientes
                 };
                 PosiblesClientesController objPosiblesClientesController = new PosiblesClientesController();
                 if (string.IsNullOrEmpty(lblOpcion.Text)) lblOpcion.Text = "1";
-        
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "<script>alert ('" + objPosiblesClientesController.SetAdministrarPosiblesClientesController(objPosiblesClientes,Convert.ToInt32(lblOpcion.Text)) + "')</script>");
+
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "<script>swal ('Excelente','" + objPosiblesClientesController.SetAdministrarPosiblesClientesController(objPosiblesClientes, Convert.ToInt32(lblOpcion.Text)) + "!','success')</script>");
                 //dejamos en  blanco al opcion !
                 lblOpcion.Text = txtIdentificacion.Text = txtEmpresa.Text =
                  txtPrimerNombre.Text= txtSegundoNombre.Text = txtPrimerApellido.Text = 
@@ -79,7 +79,12 @@ namespace Proyecto.Web.Views.PosiblesClientes
 
                 getPosiblesClientes();
             }
-            catch (Exception ex){ClientScript.RegisterStartupScript(this.GetType(), "alert", "<script> alert('" + ex.Message + "')</script>");}
+            catch (Exception ex)
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "<script> swal ('Error!','" + ex.Message + "!','error')</script>");
+
+            }
+
         }
 
         protected void gvwDatos_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
@@ -122,7 +127,7 @@ namespace Proyecto.Web.Views.PosiblesClientes
                 };
                     PosiblesClientesController objPosiblesClientesController = new Controllers.PosiblesClientesController();
 
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "<script>alert ('" + objPosiblesClientesController.SetAdministrarPosiblesClientesController(objPosiblesClientes, Convert.ToInt32(lblOpcion.Text)) + "')</script>");
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "<script>swal ('Excelente!','" + objPosiblesClientesController.SetAdministrarPosiblesClientesController(objPosiblesClientes, Convert.ToInt32(lblOpcion.Text)) + "!','success')</script>");
                     //dejamos en  blanco al opcion !
                     lblOpcion.Text = string.Empty;
                     getPosiblesClientes();
@@ -131,7 +136,7 @@ namespace Proyecto.Web.Views.PosiblesClientes
             }
             catch (Exception ex)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "<script>alert('" + ex.Message + "!')</script>");
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "<script>swal ('Error!','" + ex.Message + "!','error')</script>");
 
             }
         }

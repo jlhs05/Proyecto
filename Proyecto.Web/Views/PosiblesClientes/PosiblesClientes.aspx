@@ -1,7 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Resources/Template/Template.Master" AutoEventWireup="true" CodeBehind="PosiblesClientes.aspx.cs" Inherits="Proyecto.Web.Views.PosiblesClientes.PosiblesClientes" %>
 <asp:Content ID="ContentHeader" ContentPlaceHolderID="header" runat="server" >
-<script src="../../css/sweetalert.css" type="text/javascript"></script>
-<link href="../../css/sweetalert.css" type="text/css" rel="stylesheet" />
+        <script src="../../css/sweetalert.css" type="text/javascript"></script>
+        <link href="../../css/sweetalert.css" type="text/css" rel="stylesheet" />
+            <script src="../../js/sweetalert.min.js" type="text/javascript"></script>
+
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="contenedor" runat="server">
